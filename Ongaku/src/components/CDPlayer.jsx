@@ -1,6 +1,6 @@
 // src/components/CDPlayer.jsx
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
 import { Play, Pause } from 'lucide-react'; // Using lucide-react for icons
 
 const CDPlayer = ({ isPlaying, togglePlay }) => {
